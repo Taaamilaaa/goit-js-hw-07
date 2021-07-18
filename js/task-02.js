@@ -13,13 +13,9 @@ const createListOfIngredients = (list) => {
   let itemEl;
   const listOfIngredients = [];
   for (let item of list) {
-
-    itemEl = document.createElement('li')
-    
-    itemEl.textContent = item;
-    
+    itemEl = document.createElement('li')    
+    itemEl.textContent = item;    
     listOfIngredients.push(itemEl);  
- 
    }
   
   return listOfIngredients;
